@@ -1,0 +1,30 @@
+#foretext{
+    font-family:"KaiTi";
+    font-size:12px;
+}
+
+body{
+    background-color:#3C3C3C;
+    padding:5% 2% 5% 2%;
+}
+
+p{
+    font-size:14px;
+    color:#D0D0D0;
+    line-height:1.5;
+    font-family:KaiTi;
+    font-weight:600;
+    letter-spacing:0.05em;
+}
+
+h1{
+    font-family:"SimHei";
+    font-size:18px;
+    color:#D0D0D0;
+}
+
+h2{
+    font-family:"SimHei";
+    font-size:16px;
+    color:#D0D0D0;
+}
