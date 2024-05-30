@@ -28,7 +28,7 @@ div.menu ul{
 }
 
 div.menu li{
-    margin:5vh auto;
+    margin:30px auto;
     padding:0;
 }
 
@@ -38,7 +38,7 @@ div.menu ul li a{
     font-size:20px;
     font-weight:600;
     letter-spacing:0.1em;
-    padding:10px 50px;
+    padding:10px 40px;
     background-color:#3C3C3C;
     border:#4F4F4F solid 1px;
     text-decoration:none;
@@ -48,6 +48,7 @@ div.menu ul li a{
 
 div.topbar{
     top:0;
+    padding-top:5px;
     position:fixed;
     width:100vw;
     height:35px;
