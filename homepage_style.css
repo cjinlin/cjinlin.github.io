@@ -1,46 +1,61 @@
-ul{
-    list-style-type:none;
-    margin:0 0 0 0;
-    padding:0 0 0 0;
-    overflow:hidden;
-    margin:0 0 0 0;
-    background-color:#424242;
+div.touxiang{
+    background-color:#4F4F4F;
+    height:40vh;
+    width:100vw;
+
 }
 
-html{
-    width:100%;
-}
-
-.footer{
-    position:fixed;
-    left:0px;
-    width:100%;
-    height:10%;
-    background-color:#424242;
-    z-index:9999;
+div.touxiang img{
+    width:100px;
+    height:100px;
+    border:#3C3C3C solid 2px;
+    margin:15vh calc(50vw - 50px) auto;
 }
 
 body{
-    width:100%;
+    background-color:#272727;
     margin:0;
+    width:100vw;
+    max-height:100vh;
 }
 
-li{
-    float:left;
+
+div.menu ul{
+    list-style-type: none;
+    width:200px;
+    margin:10vh auto;
+    padding: 0;
 }
 
-li a{
+div.menu li{
+    margin:5vh auto;
+    padding:0;
+}
+
+
+div.menu ul li a{
     display:block;
-    color:white;
-    text-align:center;
-    padding:15px 25px;
+    font-size:20px;
+    font-weight:600;
+    letter-spacing:0.1em;
+    padding:10px 50px;
+    background-color:#3C3C3C;
+    border:#4F4F4F solid 1px;
     text-decoration:none;
+    color:#7B7B7B;
+    text-align:center;
 }
 
-li a:hover{
-    background-color:#111;
-}
-
-li a:active{
-    background-color:#3b743d;
+div.topbar{
+    top:0;
+    position:fixed;
+    width:100vw;
+    height:35px;
+    text-align:center;
+    background-color:#272727;
+    color:#9D9D9D;
+    font-family:"SimHei";
+    font-size:22px;
+    font-weight:500;
+    letter-spacing:0.2em;
 }
