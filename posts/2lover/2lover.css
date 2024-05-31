@@ -117,6 +117,7 @@ div.main p i,div.main p em{
 }
 
 div.main b,div.main strong{
+    background:#FF8040;
     font-weight:500;
     color:#745b5b;
     letter-spacing:0.07em;
