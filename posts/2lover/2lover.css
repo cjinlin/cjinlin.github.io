@@ -1,8 +1,9 @@
 body{
-    margin:5% 0 0 0;
+    margin:5vh 0 0 0;
     background-color:#272727;
     height:100vh;
     width:100vw;
+    -webkit-text-size-adjust: none;
 }
 
 hr{
@@ -12,17 +13,7 @@ hr{
     color:#D0D0D0;
 }
 
-div.main p i,div.main p em{
-    margin:5%;
-    padding:0;
-    font-size:13px;
-    color:#D0D0D0;
-    line-height:1.8;
-    font-family:KaiTi;
-    font-weight:600;
-    letter-spacing:0.05em;
-    text-align:justify;
-}
+
 
 div.forehead{
     border-width:2vh 2vw;
@@ -49,9 +40,7 @@ div.forehead a{
     color:#D0D0D0;
 }
 
-div.main{
-    margin:0 5vw;
-}
+
 
 div.main h2,div.main h3,div.main p{
     margin:auto 2% auto 2%;
@@ -97,26 +86,36 @@ div.topbar li a:hover {
     background-color: #6C6C6C;
 }
 
+div.main{
+    margin:5vh 5vw;
+}
 
 div.main p{
     margin:5vh 0;
     font-size:16px;
     color:#BEBEBE;
     line-height:1.8;
-    font-family:"中易宋体",SimHei;
+    font-family:SimSun;
     font-weight:300;
     letter-spacing:0.07em;
     text-align:justify;
 }
 
-div.main p a{
-    font-weight:500;
-    color:#BEBEBE;
+div.main p a,div.main p abbr{
+    font-weight:400;
+    color:#4F9D9D;
+    font-family:KaiTi;
+    margin0:0 5px;
 }
 
-div.main b,div.main em,div.main strong,div.main i{
+
+
+div.main b,div.main em,div.main strong{
     font-weight:500;
     color:#745b5b;
+    margin:0 5px;
+    font-family:SimSun;
+    
 }
 
 
