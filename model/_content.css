@@ -1,0 +1,144 @@
+body{
+    margin:5% 0 0 0;
+    background-color:#272727;
+    height:100vh;
+    width:100vw;
+}
+
+hr{
+    margin:5vh auto;
+    width:50vw;
+    height:1px;
+    color:#D0D0D0;
+}
+
+div.main p i,div.main p em{
+    margin:5%;
+    padding:0;
+    font-size:13px;
+    color:#D0D0D0;
+    line-height:1.8;
+    font-family:KaiTi;
+    font-weight:600;
+    letter-spacing:0.05em;
+    text-align:justify;
+}
+
+div.forehead{
+    border-width:2vh 2vw;
+    margin:5vh 5vw;
+}
+
+
+div.forehead p{
+    padding:0 0 0 5vw;
+    border-style:none none none solid;
+    border-width:2px;
+    background-color:#3C3C3C;
+    border-color:#9D9D9D;
+    font-size:15px;
+    color:#D0D0D0;
+    line-height:4vh;
+    font-family:KaiTi;
+    font-weight:400;
+    letter-spacing:0.05em;
+}
+
+div.forehead a{
+    font-weight:500;
+    color:#D0D0D0;
+}
+
+div.main{
+    margin:0 5vw;
+}
+
+div.main h2,div.main h3,div.main p{
+    margin:auto 2% auto 2%;
+}
+
+div.topbar img{
+    background-color:#005AB5;
+    float:center;
+    display: block;
+    margin:auto 0;
+}
+
+div.topbar ul {
+    list-style-type: none;
+    top:0;
+    width:100vw;
+    margin:0 auto;
+    padding:0;
+    position: fixed; 
+    overflow: hidden;
+    background-color: #3C3C3C;
+}
+ 
+div.topbar li {
+    float: left;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+ 
+div.topbar li a {
+    display: block;
+    color: #9D9D9D;
+    text-align: center;
+    font-family:"FangSong";
+    font-weight:700;
+    padding:10px 5vw;
+    text-decoration: none;
+    margin:0;
+}
+
+div.topbar li a:hover {
+    background-color: #6C6C6C;
+}
+
+
+div.main p{
+    margin:5vh 0;
+    font-size:16px;
+    color:#BEBEBE;
+    line-height:1.8;
+    font-family:"中易宋体",SimHei;
+    font-weight:300;
+    letter-spacing:0.07em;
+    text-align:justify;
+}
+
+div.main p a{
+    font-weight:500;
+    color:#BEBEBE;
+}
+
+div.main b,div.main em,div.main strong,div.main i{
+    font-weight:500;
+    color:#745b5b;
+}
+
+
+div.headline h1{
+    font-weight:500;
+    font-family:"SimHei";
+    font-size:20px;
+    color:#D0D0D0;
+    letter-spacing:0.10em;
+    text-align:center;
+    margin:25vh 0 5vh 0;
+
+}
+
+
+
+div.main h2{
+    font-weight:700;
+    padding:0;
+    margin:0;
+    letter-spacing:0.05em;
+    font-family:"SimHei";
+    font-size:18px;
+    color:#D0D0D0;
+}
