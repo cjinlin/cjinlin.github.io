@@ -109,6 +109,11 @@ div.main p{
     text-align:justify;
 }
 
+div.main p a{
+    font-weight:500;
+    color:#BEBEBE;
+}
+
 div.main b,div.main em,div.main strong,div.main i{
     font-weight:500;
     color:#745b5b;
