@@ -86,7 +86,6 @@ div.topbar li a:hover {
 
 div.main{
     margin:5vh 5vw;
-    background-color:#005757;
 }
 
 
@@ -99,6 +98,7 @@ div.main p{
     font-weight:300;
     letter-spacing:0.07em;
     text-align:justify;
+    background-color:#3C3C3C;
 }
 
 div.main p a,div.main p abbr{
@@ -107,6 +107,10 @@ div.main p a,div.main p abbr{
     font-family:KaiTi;
     letter-spacing:0.05em;
     margin0:0 5px;
+}
+
+div.main p a{
+    text-decoration:none;
 }
 
 div.main p i,div.main p em{
@@ -118,11 +122,12 @@ div.main p i,div.main p em{
 }
 
 div.main b,div.main strong{
-    background-color:#FF8040;
-    font-weight:500;
+    background-color:#4F4F4F;
+    font-weight:450;
     color:#FF8F59;
     letter-spacing:0.07em;
-    margin:0 5px;
+    margin:0;
+    padding:0 5px;
 }
 
 
