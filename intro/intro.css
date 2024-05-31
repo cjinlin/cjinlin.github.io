@@ -98,7 +98,6 @@ div.main p{
     font-weight:300;
     letter-spacing:0.07em;
     text-align:justify;
-    background-color:#3C3C3C;
 }
 
 div.main p a,div.main p abbr{
@@ -122,9 +121,9 @@ div.main p i,div.main p em{
 }
 
 div.main b,div.main strong{
-    background-color:#4F4F4F;
+    background-color:#BB3D00;
     font-weight:450;
-    color:#FF8F59;
+    color:#FFCBB3;
     letter-spacing:0.07em;
     margin:0;
     padding:0 5px;
