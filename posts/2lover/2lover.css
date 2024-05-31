@@ -42,9 +42,7 @@ div.forehead a{
 
 
 
-div.main h2,div.main h3,div.main p{
-    margin:auto 2% auto 2%;
-}
+
 
 div.topbar img{
     background-color:#005AB5;
@@ -90,6 +88,7 @@ div.main{
     margin:5vh 5vw;
 }
 
+
 div.main p{
     margin:5vh 0;
     font-size:16px;
@@ -102,20 +101,26 @@ div.main p{
 }
 
 div.main p a,div.main p abbr{
-    font-weight:400;
+    font-weight:300;
     color:#4F9D9D;
     font-family:KaiTi;
+    letter-spacing:0.05em;
     margin0:0 5px;
 }
 
+div.main p i,div.main p em{
+    font-family:KaiTi;
+    font-weight:300;
+    color:#ADADAD;
+    letter-spacing:0.05em;
+    margin0:0 5px;
+}
 
-
-div.main b,div.main em,div.main strong{
+div.main b,div.main strong{
     font-weight:500;
     color:#745b5b;
+    letter-spacing:0.07em;
     margin:0 5px;
-    font-family:SimSun;
-    
 }
 
 
