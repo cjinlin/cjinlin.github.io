@@ -12,8 +12,8 @@ hr{
     color:#D0D0D0;
 }
 
-div.main b,div.main strong,div.main strong,div.main abbr{
-    margin:0 10px;
+div.main b,div.main strong,div.main strong{
+    margin:0 5px;
     padding:0;
     font-size:14px;
     color:#AD5A5A;
@@ -22,8 +22,8 @@ div.main b,div.main strong,div.main strong,div.main abbr{
     font-weight:700;
     letter-spacing:0.05em;
 }
-div.main p i,div.main p em,div.main p a{
-    margin:0 10px;
+div.main p i,div.main p em,div.main abbr,div.main p a{
+    margin:0 5px;
     padding:0;
     font-size:14px;
     color:#D0D0D0;
