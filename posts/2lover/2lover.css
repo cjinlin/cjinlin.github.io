@@ -3,6 +3,7 @@ body{
     background-color:#272727;
     height:100vh;
     width:100vw;
+    -webkit-text-size-adjust: none;
 }
 
 hr{
@@ -12,6 +13,15 @@ hr{
     color:#D0D0D0;
 }
 
+
+div.forehead p a{
+    font-weight:400;
+    font-family:SimHei;
+    color:#4F9D9D;
+    letter-spacing:0.05em;
+    margin:0 5px;
+    text-decoration:none;
+}
 
 
 div.forehead{
@@ -85,7 +95,6 @@ div.topbar li a:hover {
 
 div.main{
     margin:5vh 5vw;
-    background-color:#005757;
 }
 
 
@@ -95,35 +104,57 @@ div.main p{
     color:#BEBEBE;
     line-height:1.8;
     font-family:SimSun;
-    font-weight:300;
-    letter-spacing:0.07em;
+    font-weight:400;
+    letter-spacing:0.10em;
     text-align:justify;
 }
 
-div.main p a,div.main p abbr{
-    font-weight:300;
+div.main p a{
+    font-weight:400;
     color:#4F9D9D;
     font-family:KaiTi;
     letter-spacing:0.05em;
-    margin0:0 5px;
+    margin:0 5px;
+    text-decoration:none;
 }
+
+div.main p abbr{
+    font-weight:400;
+    font-family:KaiTi;
+    letter-spacing:0.05em;
+    margin:0 5px;
+    border-style:none none dotted none;
+    border-color:auto;
+    text-decoration:none;
+    border:2px 5px;
+    border-width:2px;
+}
+
+
 
 div.main p i,div.main p em{
     font-family:KaiTi;
     font-weight:300;
     color:#ADADAD;
     letter-spacing:0.05em;
-    margin0:0 5px;
-}
-
-div.main b,div.main strong{
-    background-color:#FF8040;
-    font-weight:500;
-    color:#745b5b;
-    letter-spacing:0.07em;
     margin:0 5px;
 }
 
+div.main strong{
+    font-weight:350;
+    letter-spacing:0.07em;
+    margin:0;
+    padding:0 5px;
+    background-color:#3C3C3C;
+}
+
+div.main b{
+    color:#D0D0D0;
+    font-weight:400;
+    font-family:SimHei;
+    font-size:15px;
+    margin:0 10px;
+}
 
 div.headline h1{
     font-weight:500;
@@ -139,11 +170,11 @@ div.headline h1{
 
 
 div.main h2{
-    font-weight:700;
+    font-weight:600;
     padding:0;
     margin:0;
-    letter-spacing:0.05em;
+    letter-spacing:0.10em;
     font-family:"SimHei";
     font-size:18px;
-    color:#D0D0D0;
+    color:#ADADAD;
 }
