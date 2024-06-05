@@ -170,11 +170,37 @@ div.headline h1{
 
 
 div.main h2{
-    font-weight:600;
-    padding:0;
-    margin:0;
-    letter-spacing:0.10em;
+    font-weight:500;
+    padding:0 0 1vh 0;
+    border-style:none none dotted none;
+    border-color:#6e6e6e;
+    margin:2vh 0;
+    border-width:2px;
+    letter-spacing:0.20em;
     font-family:"SimHei";
     font-size:18px;
+    color:#ADADAD;
+}
+
+div.main h3{
+    font-weight:400;
+    margin:2vh 0;
+    padding:0 0 0 20px;
+    border-style:none none none solid;
+    border-color:#403b70;
+    border-width:4px;
+    letter-spacing:0.30em;
+    font-family:"SimHei";
+    font-size:16px;
+    color:#ADADAD;
+}
+
+div.main h4{
+    font-weight:500;
+    padding:0;
+    margin:5vh 0 -3vh 0;
+    letter-spacing:0.10em;
+    font-family:"SimHei";
+    font-size:15px;
     color:#ADADAD;
 }
