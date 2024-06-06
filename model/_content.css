@@ -141,19 +141,18 @@ div.main p i,div.main p em{
 }
 
 div.main strong{
-    font-weight:350;
-    letter-spacing:0.07em;
+    font-weight:450;
+    font-size:16px;
     margin:0;
     padding:0 5px;
-    background-color:#3C3C3C;
+    background-color:#3f3f3f;
 }
 
 div.main b{
-    color:#D0D0D0;
-    font-weight:400;
-    font-family:SimHei;
-    font-size:15px;
-    margin:0 10px;
+    color:#c06c6ca8;
+    font-weight:700;
+    padding:0 5px;
+    margin:0;
 }
 
 div.headline h1{
@@ -166,8 +165,6 @@ div.headline h1{
     margin:25vh 0 5vh 0;
 
 }
-
-
 
 div.main h2{
     font-weight:500;
