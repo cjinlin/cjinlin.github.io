@@ -1,1 +1,203 @@
+body{
+    margin:5vh 0 0 0;
+    background-color:#272727;
+    height:100vh;
+    width:100vw;
+    -webkit-text-size-adjust: none;
+}
 
+hr{
+    margin:5vh auto;
+    width:50vw;
+    height:1px;
+    color:#D0D0D0;
+}
+
+
+div.forehead p a{
+    font-weight:400;
+    font-family:SimHei;
+    color:#4F9D9D;
+    letter-spacing:0.05em;
+    margin:0 5px;
+    text-decoration:none;
+}
+
+
+div.forehead{
+    border-width:2vh 2vw;
+    margin:5vh 5vw;
+}
+
+
+div.forehead p{
+    padding:0 0 0 5vw;
+    border-style:none none none solid;
+    border-width:2px;
+    background-color:#3C3C3C;
+    border-color:#9D9D9D;
+    font-size:15px;
+    color:#D0D0D0;
+    line-height:4vh;
+    font-family:KaiTi;
+    font-weight:400;
+    letter-spacing:0.05em;
+}
+
+div.forehead a{
+    font-weight:500;
+    color:#D0D0D0;
+}
+
+
+
+
+
+div.topbar img{
+    background-color:#005AB5;
+    float:center;
+    display: block;
+    margin:auto 0;
+}
+
+div.topbar ul {
+    list-style-type: none;
+    top:0;
+    width:100vw;
+    margin:0 auto;
+    padding:0;
+    position: fixed; 
+    overflow: hidden;
+    background-color: #3C3C3C;
+}
+ 
+div.topbar li {
+    float: left;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+ 
+div.topbar li a {
+    display: block;
+    color: #9D9D9D;
+    text-align: center;
+    font-family:"FangSong";
+    font-weight:700;
+    padding:10px 5vw;
+    text-decoration: none;
+    margin:0;
+}
+
+div.topbar li a:hover {
+    background-color: #6C6C6C;
+}
+
+div.main{
+    margin:5vh 5vw;
+}
+
+
+div.main p{
+    margin:5vh 0;
+    font-size:16px;
+    color:#BEBEBE;
+    line-height:1.8;
+    font-family:SimSun;
+    font-weight:400;
+    letter-spacing:0.10em;
+    text-align:justify;
+}
+
+div.main p a{
+    font-weight:400;
+    color:#4F9D9D;
+    font-family:KaiTi;
+    letter-spacing:0.05em;
+    margin:0 5px;
+    text-decoration:none;
+}
+
+div.main p abbr{
+    font-weight:400;
+    font-family:KaiTi;
+    letter-spacing:0.05em;
+    margin:0 5px;
+    border-style:none none dotted none;
+    border-color:auto;
+    text-decoration:none;
+    border:2px 5px;
+    border-width:2px;
+}
+
+
+
+div.main p i,div.main p em{
+    font-family:KaiTi;
+    font-weight:300;
+    color:#ADADAD;
+    letter-spacing:0.05em;
+    margin:0 5px;
+}
+
+div.main strong{
+    font-weight:450;
+    font-size:16px;
+    margin:0;
+    padding:0 5px;
+    background-color:#3f3f3f;
+}
+
+div.main b{
+    color:#c06c6ca8;
+    font-weight:700;
+    padding:0 5px;
+    margin:0;
+}
+
+div.headline h1{
+    font-weight:500;
+    font-family:"SimHei";
+    font-size:20px;
+    color:#D0D0D0;
+    letter-spacing:0.10em;
+    text-align:center;
+    margin:25vh 0 5vh 0;
+
+}
+
+div.main h2{
+    font-weight:500;
+    padding:0 0 1vh 0;
+    border-style:none none dotted none;
+    border-color:#6e6e6e;
+    margin:2vh 0;
+    border-width:2px;
+    letter-spacing:0.20em;
+    font-family:"SimHei";
+    font-size:18px;
+    color:#ADADAD;
+}
+
+div.main h3{
+    font-weight:400;
+    margin:2vh 0;
+    padding:0 0 0 20px;
+    border-style:none none none solid;
+    border-color:#403b70;
+    border-width:4px;
+    letter-spacing:0.30em;
+    font-family:"SimHei";
+    font-size:16px;
+    color:#ADADAD;
+}
+
+div.main h4{
+    font-weight:500;
+    padding:0;
+    margin:5vh 0 -3vh 0;
+    letter-spacing:0.10em;
+    font-family:"SimHei";
+    font-size:15px;
+    color:#ADADAD;
+}
