@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+        <title>北雬的诗歌</title>
+        <meta encoding = "utf-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+        <link href="../essay.css" type ="text/css" rel = "stylesheet"/>
+</head>
+
+    <!-- KEEP INTACT-->
+    <body><!--此处为文章的头部导航栏-->        
+    <div class="topbar"><ul>
+            <li><a href="https://cjinlin.github.io/">主页</a></li>
+            <li><a href="https://cjinlin.github.io/posts/direct_posts.html">博客</a></li>
+            <li><a href="https://cjinlin.github.io/posts/totur/direct_totur.html">编程</a></li>
+            <li><a href="https://cjinlin.github.io/posts/freshman/direct_freshman.html">手册</a></li>
+            </ul>
+    </div>
+
+
+    <div class = "headline">
+        <h1>Headling</h1>
+    </div>
+
+
+    <div class = "forehead">
+        <p>时间：<time datatime="">Date</time><br/>
+        作者：<a href="mailto:yvmu0761@outlook.com">蔡</a></p>
+        </div>
+
+    <div class = 'main'>
+        <!--The main content-->
+     </div>
+</body>
+</html>
